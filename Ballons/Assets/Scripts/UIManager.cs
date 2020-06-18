@@ -17,7 +17,7 @@ public class UIManager : MonoBehaviour
     public void AddScore(int punto)
     {
        score= score + (punto);
-        if (score >= 500)
+        if (score >= 5)
         {
             SceneManager.LoadScene(3);
         }else if(score <= -1)
